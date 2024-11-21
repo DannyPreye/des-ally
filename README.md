@@ -42,8 +42,11 @@ Dummy data is stored in **LocalStorage** to simulate persistence, while authenti
 │   │   └── DashboardWidget.tsx
 │   └── ui/
 ├── lib/
-│   ├── analytics-generator.ts
-│   └── middleware.ts
+|   ├── helpers/
+|   |       ├──functions.ts
+|   |       └── setupData.ts
+│   └── utils.ts
+├── middleware.ts
 └── hooks/
     ├── useDebounce.ts
     ├── useUserData.ts
@@ -155,4 +158,3 @@ Dummy data is stored in **LocalStorage** to simulate persistence, while authenti
 
 ---
 
-Feel free to adapt further if needed!
